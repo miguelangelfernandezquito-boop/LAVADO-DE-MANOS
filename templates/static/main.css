@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf6f6;
+    color: #333;
+    padding: 30px 15px;
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+}
+
+header {
+    background: #087f8c;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+section {
+    padding: 25px 30px;
+}
+
+section h2 {
+    color: #087f8c;
+    margin-bottom: 15px;
+}
+
+.introduccion p {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.momentos {
+    background: #f5fbfb;
+}
+
+.tarjeta {
+    background: white;
+    border-left: 5px solid #11a6a1;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.tarjeta span {
+    display: inline-block;
+    background: #087f8c;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tarjeta h3 {
+    color: #087f8c;
+    margin-bottom: 8px;
+}
+
+.tarjeta p {
+    line-height: 1.6;
+}
+
+.consejo {
+    background: #e0f5ed;
+    text-align: center;
+}
+
+.consejo h2 {
+    color: #16845b;
+}
+
+.consejo p {
+    line-height: 1.7;
+}
+
+footer {
+    background: #075d68;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
